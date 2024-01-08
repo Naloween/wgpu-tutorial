@@ -1,3 +1,3 @@
 fn main() {
-    wgpu_tutorial::run();
+    pollster::block_on(wgpu_tutorial::run());
 }
